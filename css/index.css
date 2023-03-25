@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.header{
+    background-image: url('../image/banner.png') ;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+   min-height: 100vh;
+    width: 100%;
+   top: 0;
+   opacity: 0.9;
+}
+nav{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a img{
+    width: 200px;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+}
+.nav-link ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+     position: relative;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-link ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+#text{
+    color: white;
+}
+.textbox{
+    color: white;
+    margin: 90px;
+     position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+.btn{
+    border: 2px solid white;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    padding: 5px;
+    margin: 50px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: burlywood;
+}
+.box{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.courses{
+    /* border: 2px solid black; */
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    line-height: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.rowcol{
+    margin: 30px;
+    text-align: left;
+    background-color:oldlace;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    transition: 0.6s;
+}
+.rowcol:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+.campus{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+.row1{
+     flex-basis: 30%;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+}
+.row img{
+    width: 100%;
+    display: block;
+}
+.layer{
+     background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.layer:hover{
+    background-color: rgba(226,0,0,0.7);
+}
+.layer h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 1000;
+    position: absolute;
+    opacity: 1;
+    transform: translate(-50%);
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transition: 0.5s;
+}
+.facilities{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+}
+.fac{
+    flex-basis: 31%;
+    box-sizing: border-box;
+    transition: 0.6s;
+    margin-left: 50px;
+}
+.fac img{
+    border-radius: 10px;
+}
+.fac img:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+.testimonial{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+}
+.col{
+    display: flex;
+    flex-basis: 44%;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+.col img{
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    /* margin-bottom: 10px; */
+}
+.say{
+    margin: 0px 10px;
+}
+footer{
+    text-align: center;
+    margin: auto;
+}
